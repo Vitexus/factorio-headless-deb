@@ -1,7 +1,8 @@
-factorio_demo_x64_*.xz
+factorio_headless_x64_*.xz
 debian/.debhelper/
 debian/debhelper-build-stamp
-debian/factorio-demo.debhelper.log
-debian/factorio-demo.substvars
+debian/factorio-headless.debhelper.log
+debian/factorio-headless.substvars
 debian/files
-debian/factorio-demo/
+debian/factorio-headless
+/

@@ -1,0 +1,20 @@
+[Unit]
+Description=Factorio server
+Requires=syslog.socket
+Documentation=man:factorio-headles(8)
+Documentation=https://wiki.factorio.com/Multiplayer
+
+[Service]
+Type=notify
+ExecStart=/usr/share/games/factorio/bin/x64/factorio --start-server-load-latest --server-settings /etc/factorio-headless/server-settings.json
+StandardOutput=null
+Restart=on-failure
+WorkingDirectory=/usr/share/games/factorio
+
+# Increase the default a bit in order to allow many simultaneous
+# files to be monitored, we might need a lot of fds.
+LimitNOFILE=16384
+
+[Install]
+WantedBy=multi-user.target
+Alias=factorio.service

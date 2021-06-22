@@ -21,8 +21,19 @@ set -e
 case "$1" in
     configure)
 
-        chmod uog+rwX /usr/share/games/factorio
 
+	# creating factorio user if it isn't already there
+        if ! getent passwd factorio >/dev/null; then
+	    adduser --system --force-badname --quiet \
+    		--ingroup factorio \
+		    --home /usr/share/games/factorio --no-create-home \
+        	    --shell /bin/false \
+        	    factorio
+    		    usermod -c "Factorio server" factorio
+	fi
+
+	chown factorio /usr/share/games/factorio -R
+        chmod uog+rwX /usr/share/games/factorio
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

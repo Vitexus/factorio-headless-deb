@@ -4,3 +4,5 @@ com.factorio.factorio_headless.desktop		/usr/share/applications/
 
 #debian/tmp/factorio/bin/x64/factorio usr/games
 #debian/tmp/factorio/data	     usr/share/games/factorio
+
+debian/server-settings.json	     etc/factorio/headless
