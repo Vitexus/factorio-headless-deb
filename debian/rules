@@ -8,7 +8,6 @@ archive = "factorio_headless_x64_$(version).tar.xz"
 
 override_dh_prep:
 	wget -c https://factorio.com/get-download/stable/headless/linux64 -O $(archive)
-	dch -v $(version) "automated package build"
 	dh_prep
 
 override_dh_auto_build:
