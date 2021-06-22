@@ -1,0 +1,7 @@
+factorio_demo_x64_*.xz
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/factorio-demo.debhelper.log
+debian/factorio-demo.substvars
+debian/files
+debian/factorio-demo/
