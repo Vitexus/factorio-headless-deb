@@ -16,5 +16,9 @@ sudo apt update
 sudo apt install factorio-headless
 ```
 
-See also: https://github.com/factoriommo/factorio-multienv-ctl
+See also:
+
+ * https://github.com/factoriommo/factorio-multienv-ctl 
+ * https://github.com/Bisa/factorio-init
+
 

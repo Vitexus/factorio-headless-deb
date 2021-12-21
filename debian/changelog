@@ -1,4 +1,4 @@
-factorio-headless (1.1.35) UNRELEASED; urgency=medium
+factorio-headless (1.1.50) UNRELEASED; urgency=medium
 
   [ CyberVitexus ]
   * Build!
@@ -9,4 +9,8 @@ factorio-headless (1.1.35) UNRELEASED; urgency=medium
   * automated package build
   * automated package build
 
- -- root <root@exiv.jinonice.czf>  Tue, 22 Jun 2021 21:55:23 +0200
+  [ vitex ]
+  * upstream
+  * Út 21. prosince 2021, 15:52:40 CET update
+
+ -- vitex <info@vitexsoftware.cz>  Tue, 21 Dec 2021 15:52:40 +0100
