@@ -1,16 +1,6 @@
 factorio-headless (1.1.50) UNRELEASED; urgency=medium
 
-  [ CyberVitexus ]
-  * Build!
-
-  [ root ]
-  * automated package build
-  * automated package build
-  * automated package build
-  * automated package build
-
   [ vitex ]
-  * upstream
   * Út 21. prosince 2021, 15:52:40 CET update
 
  -- vitex <info@vitexsoftware.cz>  Tue, 21 Dec 2021 15:52:40 +0100
