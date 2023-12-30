@@ -42,7 +42,7 @@ pipeline {
 
         stage('debian-bullseye') {
             agent {
-                docker { image 'vitexsoftware/debian:bullseye' }
+                docker { image 'vitexsoftware/debian:bookworm' }
             }
             steps {
                 dir('build/debian/package') {
