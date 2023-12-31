@@ -7,3 +7,5 @@ debian/files
 debian/factorio-headless
 /
 .vscode/settings.json
+logback.log
+debian/factorio-headless.postrm.debhelper
