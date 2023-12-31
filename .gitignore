@@ -6,3 +6,4 @@ debian/factorio-headless.substvars
 debian/files
 debian/factorio-headless
 /
+.vscode/settings.json
