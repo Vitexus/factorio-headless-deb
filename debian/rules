@@ -16,8 +16,8 @@ override_dh_auto_build:
 override_dh_install:
 	mkdir -p debian/factorio-headless/usr/share/games
 	tar xf $(archive) -C debian/factorio-headless/usr/share/games
-	touch debian/factorio-headless/usr/share/games/factorio/.lock
-	chmod 666 debian/factorio-headless/usr/share/games/factorio/.lock
-	touch debian/factorio-headless/usr/share/games/factorio/factorio-current.log
-	chmod 666 debian/factorio-headless/usr/share/games/factorio/factorio-current.log
+	touch debian/factorio-headless/usr/share/games/factorio-headless/.lock
+	chmod 666 debian/factorio-headless/usr/share/games/factorio-headless/.lock
+	touch debian/factorio-headless/usr/share/games/factorio-headless/factorio-current.log
+	chmod 666 debian/factorio-headless/usr/share/games/factorio-headless/factorio-current.log
 	dh_install

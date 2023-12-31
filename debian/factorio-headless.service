@@ -6,7 +6,7 @@ Documentation=https://wiki.factorio.com/Multiplayer
 
 [Service]
 Type=notify
-ExecStart=/usr/share/games/factorio/bin/x64/factorio --start-server-load-latest --server-settings /etc/factorio-headless/server-settings.json
+ExecStart=/usr/share/games/factorio-headless/bin/x64/factorio --start-server-load-latest --server-settings /etc/factorio-headless/server-settings.json
 StandardOutput=null
 Restart=on-failure
 WorkingDirectory=/usr/share/games/factorio
