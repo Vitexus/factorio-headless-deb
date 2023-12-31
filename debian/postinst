@@ -39,7 +39,7 @@ case "$1" in
 
 	chown factorio /usr/share/games/factorio-headless -R
         chmod uog+rwX /usr/share/games/factorio-headless
-	chown factorio -r /var/lib/games/factorio-headless/saves
+	chown factorio -R /var/lib/games/factorio-headless/saves
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
