@@ -37,8 +37,9 @@ case "$1" in
     		    usermod -c "Factorio server" factorio
 	fi
 
-	chown factorio /usr/share/games/factorio -R
-        chmod uog+rwX /usr/share/games/factorio
+	chown factorio /usr/share/games/factorio-headless -R
+        chmod uog+rwX /usr/share/games/factorio-headless
+	chown factorio -r /var/lib/games/factorio-headless/saves
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
