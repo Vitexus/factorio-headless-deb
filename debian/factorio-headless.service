@@ -9,7 +9,7 @@ Type=notify
 ExecStart=/usr/share/games/factorio-headless/bin/x64/factorio --start-server-load-latest --server-settings /etc/factorio-headless/server-settings.json
 StandardOutput=null
 Restart=on-failure
-WorkingDirectory=/usr/share/games/factorio
+WorkingDirectory=/usr/share/games/factorio-headless
 
 # Increase the default a bit in order to allow many simultaneous
 # files to be monitored, we might need a lot of fds.
